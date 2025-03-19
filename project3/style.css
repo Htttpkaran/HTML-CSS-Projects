@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(136, 136, 136, 0.519);
+}
+
+.bgimg1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-size: 50px;
+    background-color: #2a2828;
+    color: white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section1{
+    width: 100%;
+    background-color: white;
+    padding: 10px 10% 5% 10%;
+}
+
+.section1 h1, .section2 h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.section1 p{
+    font-size: 20px;
+    color: #2a2828a1;
+}
+
+.bgimg2{
+    height: 400px;
+    width: 100%;
+    background-image: url(image2.png);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nature{
+    font-size: 50px;
+    background-color: #2927279c;
+    color: white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section2{
+    width: 100%;
+    background-color: rgba(26, 25, 25, 0.818);
+    padding: 10px 10% 5% 10%;
+}
+.section2 p{
+    font-size: 20px;
+    color: white;
+}
+.section2 h1{
+    color: white;
+}
+
+.bgimg3{
+    height: 400px;
+    width: 100%;
+    background-image: url(image3.png);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
