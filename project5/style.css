@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* Main container */
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+/* Navigation */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem ;
+}
+.menu{
+    font-size: 25px;
+}
+
+nav{
+    box-shadow: 5px 5px 5px #ccc;
+    display:sticky;
+    top:0;
+    background-color: #fff;
+}
+
+/* Hero Section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+.hero_text{
+    width: 50%;
+}
+.tag span{
+    background-color: green;
+    color: white;
+    padding: 5px 20px;
+    font-size: 20px;
+    
+}
+.tag{
+    margin-bottom: 2rem;
+}
+
+.heading{
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+.para p{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.btn button{
+    background-color: #FFC066;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+.btn button:hover{
+    background-color: orange;
+}
